@@ -1,0 +1,144 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    
+}
+header{
+    background-color: blue;
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+nav{
+    background-color: brown;
+    width: 70%;
+    height: 8%;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    position: relative;
+
+}
+#section1{
+    border: 1px solid black;
+    width:98%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(48, 179, 48) ;
+}
+#contvideo{
+    background-color: gray;
+    height: 70%;
+    width:45% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#text{
+    background-color: gray;
+    height: 70%;
+    width:50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+
+#section2{
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 98%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(48, 179, 48) ;
+    
+}
+
+
+
+#bloc1{
+    background-color: grey;
+    width:30%;
+    height: 70%;
+    margin-right: 20px;
+   
+}
+#bloc2{
+    display: flex;
+    width: 60%;
+    height:70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+img{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+
+#bloc3{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction:row ;
+    margin-top: 5px;
+}
+
+.left{
+    background-color: grey;
+    width:50%;
+    height: 100%;
+    margin-left: 5px;
+   margin-right: 5px;
+    position: relative;
+    flex: 1;
+    display: flex;
+    
+    
+}
+
+
+.right{
+    flex: 1;
+    display: grid;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    
+}
+.article{
+    height: 100%;
+    background-color: aquamarine;
+    flex: 1;
+}
+.footer{
+    display: flex;
+  margin-top: 10px;
+    background-color: brown;
+    width: 100%;
+    height: 80%;
+    flex: 1;
+   
+}
+

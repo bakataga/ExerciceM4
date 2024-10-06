@@ -1,0 +1,74 @@
+.pseudo, .password{ 
+    font-weight: bold;
+    color: black;
+
+}
+h1{
+    color: blueviolet;
+    border-top: 2px solid blueviolet;
+    display: inline-block;
+    border-bottom: 2px solid blueviolet;
+   
+   
+}
+.cadretext{
+    text-align: center;
+}
+.section1, .section2,.section3{
+
+    border:1px solid black;
+}
+.aligncheck, .select{
+ 
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 30px;
+
+
+}
+
+.url{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 53px;
+
+}
+    
+.section2{
+    margin-top: 5px;
+}
+    
+.parag{
+    margin-left: 30px;
+}
+
+.OS{
+    display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 20px;
+}
+
+.question{
+    text-align: center;
+}
+.textarea{
+
+    width: 7vh;
+    height: 50vh;
+    align-items: center;
+}
+.section3{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit{
+margin-bottom: 50px;
+
+}
