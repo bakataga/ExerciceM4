@@ -1,0 +1,34 @@
+body{ 
+height: 100vh;
+padding:0;
+margin:0;
+
+
+}
+
+#haut{
+    display: block;
+    background-color: aqua;
+    width: 100%;
+    height: 10vh;
+}
+#menu{
+    display: flex;
+    background-color: violet;
+    width: 100%;
+    height: 5vh;
+}
+#milieu{
+    display: flex;
+    background-color: yellow;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    height:75vh;
+}
+#bas{
+    display: block;
+    background-color: aqua;
+    width: 100%;
+    height:10vh;
+}

@@ -1,0 +1,84 @@
+body{ 
+    display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(246, 179, 239);
+  margin: 0;
+    
+    
+    }
+    
+    #haut{
+        background-color: rgb(106, 18, 109);
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    #menu{
+        background-color: rgb(3, 20, 204);
+        height: 5vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #milieu{
+        background-color: rgb(255, 255, 255);
+        width: 97.5%;
+        height: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+   
+    .carre{
+        
+        display: grid; /* Utilise la grille pour organiser les carrés */
+        grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+        grid-template-rows: repeat(2, 1fr); /* Deux lignes */
+        width: 100%; /* Remplit toute la largeur */
+        height: 100%; }
+
+    .P1, .P2, .P3, .P4 {
+        display: grid; /* Utilise la grille pour les petits carrés */
+        grid-template-columns: repeat(2, 1fr); /* Deux colonnes pour les petits carrés */
+        grid-template-rows: repeat(2, 1fr); /* Deux lignes pour les petits carrés */
+        margin: 2px; /* Espace entre les grands carrés */
+      }
+   
+    
+
+    .PZ {
+        display: flex; /* Utilise Flexbox pour centrer le texte */
+        justify-content: center; /* Centre horizontalement le contenu */
+        align-items: center; /* Centre verticalement le contenu */
+        border: 1px solid #ffffff;
+      }
+      .P1 {
+        background-color: red;
+      }
+      
+      .P2 {
+        background-color: yellow;
+      }
+      
+      .P3{
+        background-color: green;
+      }
+      
+      .P4 {
+        background-color: brown;
+      }
+      #bas {
+        background-color: rgb(205, 205, 206);
+        height: 10vh;
+        width: 100%;
+        bottom: 0px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+      }

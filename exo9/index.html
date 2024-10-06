@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>exo 9</title>
+</head>
+<body>
+
+    <section class="section1">
+        <div class="cadretext">
+    <h1> Informations personnelles</h1>
+        </div>
+
+    <form method="post" action="#">
+        <ul>
+            <li>
+                <label>Civilité *:</label>
+                <select name="civilite" id="civilite">
+                    <option value="mme">Mme</option>
+                    <option value="mr">Mr</option>
+                    <option value="melle">Melle</option>
+                </select>
+                
+            </li>
+<br>
+            <li>
+                <label>Nom *:</label>
+                <input type="text" name="Nom" placeholder="Votre Nom ici"/>
+            </li>
+<br>
+            <li>
+                <label>Prénom *:</label>
+                <input type="text" name="prenom" placeholder="Votre Prénom ici" required/>
+            </li>
+<br>
+            <li>
+                <label>Date de naissance *:</label>
+                <input type="date" name="birth" required/>
+            </li>
+<br>
+            <li>
+                <label>Numéro de téléphone fixe *:</label>
+                <input type="number" name="telephonefixe" required/>
+            </li>
+<br>
+            <li>
+                <label>Numéro de portable *:</label>
+                <input type="number" name="numeroportable" required/>
+            </li>
+<br>
+            <li>
+                <label>Numéro de rue *:</label>
+                <input type="number" name="numerorue" placeholder="N°" required/>
+                <label>Nom de rue*:</label>
+                <input type="text" name="nomrue" placeholder="Nom de rue" required/>
+            </li>
+<br>
+            <li>
+                <label>Code postale *:</label>
+                <input type="number" name="codepostale" placeholder="Votre code postale ici"/>
+            </li>
+<br>
+            <li>
+                <label>Ville *:</label>
+                <input type="text" name="ville" placeholder="Votre Ville ici" required/>
+            </li>
+<br>
+            <li>
+                <label class="pseudo">Pseudo*:</label>
+                <input type="text" name="pseudo" placeholder="Entrer votre pseudo ici" required />
+            </li>
+<br>
+            <li>
+                <label class="password">Mot de passe*:</label>
+                <input type="password" name="motdepasse" placeholder="Entrer votre mot de passe ici" required/>
+                <input type="submit" value="envoyer"/>
+                <input type="checkbox" name="sesouvenir">
+                Se souvenir de moi</input>
+            </li>
+
+            
+        </ul>
+
+
+    </form>
+</section>
+<section class="section2">
+          <div class="cadretext">
+            <h1>Informations complémentaires</h1>
+          </div>
+
+            <div class="aligncheck">
+          <p>Quel est votre niveau en développement?</p>
+          <input type="radio" value="debutant"  name="level" />
+          <label for="level">Débutant</label>
+          <input type="radio" value="Junior"name="level" />
+          <label for="level">Junior</label>
+          <input type="radio" value="Expert"name="level" />
+          <label for="level">Expert</label>
+            </div>
+
+<br>
+<div class="parag">
+            <p>Quel est votre niveau de connaissance dans les différents langages?
+                 </p>
+</div>
+<br>
+<ul>
+   
+            <input type="checkbox" id="html"/>
+    <li>
+            <label for="html/css">HTML/CSS</label>
+    </li>
+            <input type="checkbox" id="python"/>
+     <li>
+            <label for="Python">Python</label>
+    </li>
+            <input type="checkbox" id="php"/>
+     <li>      
+            <label for="PHP">PHP</label>
+    </li> 
+            <input type="checkbox" id="java"/>
+    <li>      
+           <label for="java">Java</label>
+   </li> 
+           <input type="checkbox" id="nodejs"/>
+    <li>      
+            <label for="nodejs">Nodejs</label>
+    </li> 
+            <input type="checkbox" id="reactjs"/>
+    <li>      
+            <label for="reactjs">reactjs</label>
+    </li> 
+            <input type="checkbox" id="Cdiese"/>
+     <li>      
+           <label for="Cdiese">C#</label>
+    </li> 
+</ul>
+
+<div class="OS">
+    <p>Sur quel OS travaillez vous? </p>
+    
+    <select name="os" id="os">
+        <option value="windows">Windows</option>
+        <option value="mac">Mac</option>
+        <option value="linux">Linux</option>
+    </select>
+</div>
+
+</section>
+
+<section class="section3">
+    <div class="cadretext">
+    <h1>Informations liées à la Promotion</h1>
+    </div>
+<div class="select">
+    <ul>
+        <li>
+            <p>Promotion beweb ?</p>
+        </li>
+    </ul>
+            <select name="ville" id="ville">
+            <option value="ville">Montpellier</option>
+            <option value="ville">Alès</option>
+            <option value="ville">Béziers</option>
+            </select>
+
+            <select name="année" id="année">
+                <option value="année">2019</option>
+                <option value="année">2020</option>
+                <option value="année">2021</option>
+                <option value="année">2022</option>
+                <option value="année">2023</option>
+                <option value="année">2024</option>
+                </select>
+      
+</div>
+<div class="url">
+  <p>Merci de nous faire parvenir votre URL TD_1</p>
+  
+  <input type="url" name="Nom" placeholder="URL"/>
+</div>
+<p class="question">
+<label for="question">Si vous avez des questions vous 
+    pouvez nous les laisser en commentaire ci-dessous:</label>
+<br>
+<div class="textarea">
+<textarea name="question" id="question" >
+
+</textarea>
+</div>
+</p>
+
+<div class="submit">
+<input type="submit" value="envoyer"/>
+</div>
+</section>
+</body>
+</html>
